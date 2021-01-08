@@ -1,0 +1,29 @@
+A weapon file contains attributes about a particular weapon
+The syntax for a file goes like this:
+
+NAME
+INITIAL AMMO (-1 for unlimited)
+TYPE (0 for projectile, 1 for health boost, 2 for doodie, 3 for melee, 4 for line of sight)
+PROJECTILE DAMAGE
+PROJECTILE DISTANCE MODIFIER
+PROJECTILE SPLASH RADIUS
+PROJECTILE FIRE SOUND
+PROJECTILE HIT SOUND
+PROJECTILE DISPLACEMENT (how much does a player get pushed if he is hit?)
+PROJECTILE ANIMATION SPRITE 1 (these need to be symmetrical)
+PROJECTILE ANIMATION SPRITE 2
+
+Example file:
+
+
+Monkey Slap
+-1
+3
+10
+1
+5
+slap.wav
+nothing
+300
+nothing
+nothing
